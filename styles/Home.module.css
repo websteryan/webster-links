@@ -60,8 +60,8 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #107fd2;
-  border-color: #107fd2;
+  color: #7bf160;
+  border-color: #7bf160;
 }
 
 .card h2 {
@@ -75,3 +75,8 @@
   line-height: 1.5;
 }
 
+.video {
+  position: fixed;
+  z-index: -1;
+  filter: brightness(45%);
+}

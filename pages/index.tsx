@@ -14,6 +14,9 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
+        <div className={styles.video}>
+          <video src='/video.webm' typeof='video/webm' autoPlay muted loop/>
+        </div>
       <div className={styles.image}/>
         <h1 className={styles.title}>
           Ryan Webster
