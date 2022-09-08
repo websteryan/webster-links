@@ -15,7 +15,7 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <div className={styles.video}>
-          <video src='/video.webm' typeof='video/webm' autoPlay muted loop/>
+          <video src='/video.webm' typeof='video/webm' autoPlay playsInline muted loop/>
         </div>
       <div className={styles.image}/>
         <h1 className={styles.title}>
