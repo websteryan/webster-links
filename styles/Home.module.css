@@ -1,29 +1,32 @@
 .container {
-  padding: 0 2rem;
+  width: 100%;
+  height: 100%;
 }
 
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  backdrop-filter: blur(50px);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .image {
-  width: 150px;
-  height: 150px;
-  background-image: url('/img.jpeg');
+  width: 100px;
+  height: 100px;
+  background-image: url('/teste3.jpeg');
   background-size: cover;
   border-radius: 100%;
+  margin-top: 60px;
 }
 
 .title {
+  padding-top: 20px;
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 1.3rem;
+  
 }
 
 .title,
@@ -32,8 +35,9 @@
 }
 
 .description {
-  line-height: 1.5;
-  font-size: 1.5rem;
+  
+  font-size: 1.0rem;
+  color: #A8A4A4;
 }
 
 
@@ -41,7 +45,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-direction: column;
   max-width: 900px;
 }
 
@@ -54,30 +58,47 @@
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 400px;
+  min-width: 600px;
+  max-height: 80px;
+  transition: transform 400ms;
 }
 
 .card:hover,
 .card:focus,
 .card:active {
-  color: #7bf160;
-  border-color: #7bf160;
-}
-
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
+  transition: transform 400ms;
+  transform: scale(1.1);
 }
 
 .card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
-.video {
-  
-  position: fixed;
+.background {
+  width: 100%;
+  height: 100%;
+  background-image: url('/img.jpeg');
+  background-position: center;
+  position: absolute;
+  background-size: cover;
   z-index: -1;
-  filter: brightness(45%);
+  
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  min-width: 300px;
+  max-height: 80px;
+  transition: transform 400ms;
+  }
 }
