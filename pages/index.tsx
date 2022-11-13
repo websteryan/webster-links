@@ -45,7 +45,7 @@ const Home: NextPage = () => {
             </a>
 
             <a
-                href="https://www.linkedin.com/in/ryan-webster-601054244/" 
+                href="https://www.linkedin.com/in/ryanwebstert" 
                 className={styles.card}
                 target="_blank" rel="noopener noreferrer"
               >
@@ -85,7 +85,7 @@ const Home: NextPage = () => {
               </a>
 
               <a
-                href="https://www.linkedin.com/in/ryan-webster-601054244/" 
+                href="https://www.linkedin.com/in/ryanwebstert" 
                 className={styles.card}
                 target="_blank" rel="noopener noreferrer"
               >
