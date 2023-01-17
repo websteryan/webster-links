@@ -36,7 +36,7 @@ const Home: NextPage = () => {
 
             <div className={styles.grid}>
             <a 
-              href="mailto:webstertrajano2003@gmail.com" 
+              href="mailto:ryanwebstert@gmail.com" 
               className={styles.card}
               target="_blank" rel="noopener noreferrer"
             >
@@ -54,7 +54,7 @@ const Home: NextPage = () => {
               </a>
 
             <a
-              href="https://api.whatsapp.com/send?phone=5565999257298&text=Ol%C3%A1"
+              href="https://api.whatsapp.com/send?phone=5565992835002&text=Ol%C3%A1"
               className={styles.card}
               target="_blank" rel="noopener noreferrer"
             >
