@@ -76,7 +76,7 @@ const Home: NextPage = () => {
           :
               <div className={styles.grid}>
               <a 
-                href="https://github.com/ryanwebstert" 
+                href="https://github.com/websteryan" 
                 className={styles.card}
                 target="_blank" rel="noopener noreferrer"
               >
